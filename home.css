@@ -56,7 +56,7 @@ body {
 }
 
 .description h1 {
-    color: #2170e7;
+    color: #3887ff;
 }
 
 .description p {
@@ -105,7 +105,6 @@ body {
 .features .form-control,
 .features input {
     border-radius: 0;
-    po
 }
 
 .features .btn {
@@ -157,5 +156,23 @@ body {
     }
 }
 
+.d-flex {
+    border: 2px solid #000;
+}
 
-/*--- Carousel --*/
+.d-flex picture {
+    width: 300px;
+    flex: auto;
+    cursor: pointer;
+    border: 2px solid #000;
+}
+
+@media (min-width: 992px) {
+    .w-lg-50 {
+        width: 50%!important;
+    }
+}
+
+.row {
+    margin: 15px;
+}
