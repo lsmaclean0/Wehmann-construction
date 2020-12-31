@@ -30,14 +30,54 @@
                     <a class="nav-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#contact-form">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="#myModal" data-toggle="modal" data-target="#myModal">Contact</a>
                 </li>
             </ul>
         </div>
     </nav>
+
+    <!-- The Modal -->
+    <div class="modal" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Contact Form</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <form action="/action_page.php">
+                        <div class="form-group">
+                            <label for="name">Name:</label>
+                            <input type="name" class="form-control" placeholder="Enter First & Last name" id="name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email address:</label>
+                            <input type="email" class="form-control" placeholder="Enter email" id="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone:</label>
+                            <input type="phone" class="form-control" placeholder="Enter phone number" id="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="Description">Description:</label>
+                            <input type="description" class="form-control" placeholder="Description" id="des">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
 
     <!--Body container-->
     <header class="image-gallery">
@@ -107,7 +147,7 @@
                 </div>
                 <div class="col-lg-3 col-md-4 col-6">
                     <a href="#" class="d-block mb-4 h-100">
-                        <img class="img-fluid img-thumbnail" src="images/decks/IMG_0087.JPG" alt="">
+                        <img class="img-fluid img-thumbnail" src="images/decks/deck-6.jpg" alt="">
                     </a>
                 </div>
             </div>
@@ -116,28 +156,6 @@
         <!-- /.container -->
     </header>
 
-    <!-- <div class="Solutions"></div> -->
-
-
-
-
-    <!-- Contact Form-->
-    <div class="col-lg-4 col-md-4 col-sm-15">
-        <a id="contact-form"></a>
-        <h3 class="feature-title">Contact Us Today!</h3>
-        <div class="form-group">
-            <input type="text" class="form-control" placeholder="Name" name="">
-        </div>
-        <div class="form-group">
-            <input type="email" class="form-control" placeholder="Email Address" name="email">
-        </div>
-        <div class="form-group">
-            <textarea class="form-control" rows="4"></textarea>
-        </div>
-        <input type="submit" class="btn btn-secondary btn-block" value="Send" name="">
-    </div>
-
-
     <!-- Footer -->
     <footer class="page-footer">
         <div class="container">
@@ -145,10 +163,9 @@
                 <div class="col-lg-8 col-md-8 col-sm-12">
                     <h6>"By wisdom a house is built, and by understanding it is established."</h6>
                     <h7 style="font-style: italic">-Proverbs 24:3</h7>
-                    <p>Any additional info you would like to add can be placed here.</p>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12">
-                    <h6 class="text-uppercase font-weight-bold">Contact</h6>
+                    <h6 class="text-uppercase font-weight-bold"></h6>
                     <p>Leesburg VA.
                         <br/>wehmannconstructioninc@verizon.net
                         <br/>+1 707 771 7281

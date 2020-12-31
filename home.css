@@ -211,3 +211,12 @@ a:active {
 .row {
     margin: 15px;
 }
+
+.contact-button {
+    margin: auto;
+    position: inherit;
+}
+
+.modal {
+    background-color: none;
+}
